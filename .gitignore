@@ -1,0 +1,18 @@
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Local ZE2 install, decompiled references, and generated modding artifacts.
+Zombie Estate 2/
+dnSpy-net-win64/
+ZE2_decompiled_mapping/
+ZE2_decompiled_playing/
+ZE2_decompiled_test/
+ZE2ModLoader/
+ZE2ModLoader.Patcher/
+*.zip
+
+# Do not redistribute ZE2 game assets. Place your local atlas here if desired.
+ZE2MapEditor/Assets/*.png
